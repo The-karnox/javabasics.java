@@ -7,7 +7,7 @@ public class App {
     public static int aInverse; // modular multiplicative inverse of A
 
 
-     // Encrypts the plaintext using the Affine Cipher
+     // Encription
      public static String encrypt(String plaintext) {
         char[] chars = plaintext.toUpperCase().toCharArray();
         StringBuilder ciphertext = new StringBuilder();
@@ -22,7 +22,7 @@ public class App {
 
 
     
-    // Decrypts the ciphertext using the Affine Cipher
+    // Decription
     public static String decrypt(String ciphertext) {
         char[] chars = ciphertext.toLowerCase().toCharArray();
         StringBuilder plaintext = new StringBuilder();
